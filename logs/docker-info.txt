@@ -1,0 +1,52 @@
+Client:
+ Context:    colima
+ Debug Mode: false
+ Plugins:
+WARNING: Plugin "/Users/clineberry/.docker/cli-plugins/docker-compose" is not valid: failed to fetch metadata: fork/exec /Users/clineberry/.docker/cli-plugins/docker-compose: no such file or directory
+
+Server:
+ Containers: 2
+  Running: 2
+  Paused: 0
+  Stopped: 0
+ Images: 2
+ Server Version: 20.10.18
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Native Overlay Diff: true
+  userxattr: false
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 1
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 io.containerd.runtime.v1.linux runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 9cd3357b7fd7218e4aec3eae239db1f68a5a6ec6
+ runc version: 5fd4c4d144137e991c4acebb2146ab1483a97925
+ init version: 
+ Security Options:
+  seccomp
+   Profile: default
+ Kernel Version: 5.15.68-0-virt
+ Operating System: Alpine Linux v3.16
+ OSType: linux
+ Architecture: aarch64
+ CPUs: 2
+ Total Memory: 5.786GiB
+ Name: colima
+ ID: TDK7:LHNF:4TOQ:7PEE:FCQD:YHM5:ZGQT:7OHH:RQGF:FFQ7:WWSL:56MU
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Registry: https://index.docker.io/v1/
+ Labels:
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: false
+

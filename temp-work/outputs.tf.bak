@@ -1,0 +1,19 @@
+output "postgres_hostname" {
+    value = module.postgresql.hostname 
+}
+
+output "postgres_port" {
+    value = module.postgresql.port
+}
+
+output "postgres_pw_secret" {
+    value = module.postgresql.password_secret
+}
+
+output "postgres_pw_key" {
+    value = module.postgresql.password_key
+}
+
+output "postgres_username" {
+    value = module.postgresql.username
+}

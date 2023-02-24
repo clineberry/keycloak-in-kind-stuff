@@ -1,0 +1,34 @@
+2022-11-29T21:00:28.628385532Z stderr F [38;5;6mpostgresql [38;5;5m21:00:28.61 [0m
+2022-11-29T21:00:28.650720116Z stderr F [38;5;6mpostgresql [38;5;5m21:00:28.64 [0m[1mWelcome to the Bitnami postgresql container[0m
+2022-11-29T21:00:28.670584032Z stderr F [38;5;6mpostgresql [38;5;5m21:00:28.66 [0mSubscribe to project updates by watching [1mhttps://github.com/bitnami/containers[0m
+2022-11-29T21:00:28.689918949Z stderr F [38;5;6mpostgresql [38;5;5m21:00:28.68 [0mSubmit issues and feature requests at [1mhttps://github.com/bitnami/containers/issues[0m
+2022-11-29T21:00:28.708986449Z stderr F [38;5;6mpostgresql [38;5;5m21:00:28.70 [0m
+2022-11-29T21:00:28.893696866Z stderr F [38;5;6mpostgresql [38;5;5m21:00:28.88 [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL setup **
+2022-11-29T21:00:29.062913783Z stderr F [38;5;6mpostgresql [38;5;5m21:00:29.04 [0m[38;5;2mINFO [0m ==> Validating settings in POSTGRESQL_* env vars..
+2022-11-29T21:00:29.134676574Z stderr F [38;5;6mpostgresql [38;5;5m21:00:29.13 [0m[38;5;2mINFO [0m ==> Cleaning stale /bitnami/postgresql/data/postmaster.pid file
+2022-11-29T21:00:29.176888699Z stderr F [38;5;6mpostgresql [38;5;5m21:00:29.17 [0m[38;5;2mINFO [0m ==> Loading custom pre-init scripts...
+2022-11-29T21:00:29.227634908Z stderr F [38;5;6mpostgresql [38;5;5m21:00:29.22 [0m[38;5;2mINFO [0m ==> Initializing PostgreSQL database...
+2022-11-29T21:00:29.460446199Z stderr F [38;5;6mpostgresql [38;5;5m21:00:29.45 [0m[38;5;2mINFO [0m ==> pg_hba.conf file not detected. Generating it...
+2022-11-29T21:00:29.481043324Z stderr F [38;5;6mpostgresql [38;5;5m21:00:29.47 [0m[38;5;2mINFO [0m ==> Generating local authentication configuration
+2022-11-29T21:00:29.671883366Z stderr F [38;5;6mpostgresql [38;5;5m21:00:29.66 [0m[38;5;2mINFO [0m ==> Deploying PostgreSQL with persisted data...
+2022-11-29T21:00:29.798054825Z stderr F [38;5;6mpostgresql [38;5;5m21:00:29.79 [0m[38;5;2mINFO [0m ==> Configuring replication parameters
+2022-11-29T21:00:30.183056325Z stderr F [38;5;6mpostgresql [38;5;5m21:00:30.17 [0m[38;5;2mINFO [0m ==> Configuring fsync
+2022-11-29T21:00:30.274864741Z stderr F [38;5;6mpostgresql [38;5;5m21:00:30.27 [0m[38;5;2mINFO [0m ==> Configuring synchronous_replication
+2022-11-29T21:00:30.473468825Z stderr F [38;5;6mpostgresql [38;5;5m21:00:30.46 [0m[38;5;2mINFO [0m ==> Loading custom scripts...
+2022-11-29T21:00:30.528337825Z stderr F [38;5;6mpostgresql [38;5;5m21:00:30.52 [0m[38;5;2mINFO [0m ==> Enabling remote connections
+2022-11-29T21:00:30.654478658Z stderr F [38;5;6mpostgresql [38;5;5m21:00:30.64 [0m[38;5;2mINFO [0m ==> ** PostgreSQL setup finished! **
+2022-11-29T21:00:30.654714783Z stdout F 
+2022-11-29T21:00:30.8098807Z stderr F [38;5;6mpostgresql [38;5;5m21:00:30.80 [0m[38;5;2mINFO [0m ==> ** Starting PostgreSQL **
+2022-11-29T21:00:30.887920283Z stderr F 2022-11-29 21:00:30.887 GMT [1] LOG:  pgaudit extension initialized
+2022-11-29T21:00:30.993220992Z stderr F 2022-11-29 21:00:30.992 GMT [1] LOG:  starting PostgreSQL 15.1 on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit
+2022-11-29T21:00:31.002876742Z stderr F 2022-11-29 21:00:31.002 GMT [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-11-29T21:00:31.002887492Z stderr F 2022-11-29 21:00:31.002 GMT [1] LOG:  listening on IPv6 address "::", port 5432
+2022-11-29T21:00:31.005886158Z stderr F 2022-11-29 21:00:31.005 GMT [1] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-11-29T21:00:31.040659617Z stderr F 2022-11-29 21:00:31.040 GMT [252] LOG:  database system was interrupted; last known up at 2022-11-29 20:33:02 GMT
+2022-11-29T21:00:32.514838618Z stderr F 2022-11-29 21:00:32.514 GMT [252] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-11-29T21:00:32.530076993Z stderr F 2022-11-29 21:00:32.529 GMT [252] LOG:  redo starts at 0/19498E0
+2022-11-29T21:00:32.530816451Z stderr F 2022-11-29 21:00:32.530 GMT [252] LOG:  invalid record length at 0/19499C8: wanted 24, got 0
+2022-11-29T21:00:32.530982034Z stderr F 2022-11-29 21:00:32.530 GMT [252] LOG:  redo done at 0/1949990 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-11-29T21:00:32.542002284Z stderr F 2022-11-29 21:00:32.541 GMT [249] LOG:  checkpoint starting: end-of-recovery immediate wait
+2022-11-29T21:00:32.556558659Z stderr F 2022-11-29 21:00:32.556 GMT [249] LOG:  checkpoint complete: wrote 3 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.004 s, sync=0.002 s, total=0.015 s; sync files=2, longest=0.001 s, average=0.001 s; distance=0 kB, estimate=0 kB
+2022-11-29T21:00:32.572120409Z stderr F 2022-11-29 21:00:32.572 GMT [1] LOG:  database system is ready to accept connections

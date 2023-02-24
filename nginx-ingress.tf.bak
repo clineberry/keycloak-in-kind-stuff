@@ -1,0 +1,23 @@
+/*module "nginx-ingress-controller" {
+  source  = "byuoitav/nginx-ingress-controller/kubernetes"
+  version = "0.2.1"
+  
+  priority_class_name = "nginx"
+  controller_replicas = 1
+  lb_ports = [
+    {
+        "name" : "http",
+        "port" : 8080,
+        "target_port" : 8080
+    }
+  ]
+}
+*/
+
+module "ingress-nginx-controller" {
+  source  = "zioproto/ingress-nginx-controller/kubernetes"
+  version = "0.0.1"
+  depends_on = [
+    kubernetes_deployment.keycloak
+  ]
+}

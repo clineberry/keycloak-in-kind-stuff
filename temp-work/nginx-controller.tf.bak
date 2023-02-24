@@ -1,0 +1,83 @@
+resource "kubernetes_config_map" "nginx-controller" {
+    metadata {
+        name = "nginx-controller"
+        labels = merge( local.labels_list,
+                        {"component" = "ingress-controller"}
+                    )
+    }
+    data = {
+        "allow-snippet-annotations" = true
+    }
+}
+
+resource "kubernetes_deployment" "nginx-controller" {
+    metadata {
+        name = "${var.cluster_name}-nginx"
+        labels = merge(local.labels_list,
+                       {"component": "nginx-controller"} 
+                    )
+    }
+    spec {
+        replicas = 1
+        selector {
+            match_labels = local.labels_list
+        }
+        template {
+            metadata {
+                labels = merge( local.labels_list, 
+                                {"component" = "nginx-controller"})
+            }
+            spec {
+                container {
+                    name = "nginx-controller"
+                    image = "quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.33.0"
+                    image_pull_policy = "IfNotPresent"
+                    args = ["/nginx-ingress-controller",
+                            "--election-id=ingress-controller-leader",
+                            "--ingress-class=nginx",
+                            "--configmap=$${POD_NAMESPACE}/ingress-nginx-controller"
+                    ]
+                    resources {
+                        limits = {
+                            cpu = "100m"
+                            memory = "64Mi"
+                        }
+                        requests = {
+                            cpu = "100m"
+                            memory= "64Mi"
+                        }
+                    }
+                    env {
+                        name = "POD_NAME"
+                        value_from {
+                            field_ref {
+                                field_path = "metadata.name"
+                            }
+                        }
+                    }
+                    env {
+                        name = "POD_NAMESPACE"
+                        value_from {
+                          field_ref {
+                            field_path = "metadata.namespace"
+                          }
+                        }
+
+                    }
+                    security_context {}
+                    port {
+                        name = "http"
+                        protocol = "TCP"
+                        container_port = kubernetes_service.keycloak.spec[0].port[0].target_port
+                    }
+                    readiness_probe {
+                      http_get {
+                        path = "/healthz"
+                        port = kubernetes_service.keycloak.spec[0].port[0].target_port
+                      }
+                    }
+                }
+            }
+        }
+    }
+}

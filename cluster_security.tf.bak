@@ -1,0 +1,48 @@
+resource "kubernetes_cluster_role" "developer" {
+    metadata {
+        name    = "${var.cluster_name}-developer"
+        labels  = merge (local.labels_list,
+                         {"name"= "ns-read-only"}
+        )
+        annotations = { 
+            rbac.authorization.kubernetes.io/autoupdate = "true" 
+        }
+    }
+    rule {
+        api_groups {}
+        resources = ["namespaces"]
+        verbs = ["list"]
+    }
+}
+
+resource "kubernetes_cluster_role_binding" "developer" {
+    metadata {
+        name    = "${var.cluster_name}-developer-crb"
+    }
+    role_ref {
+        api_group = "rbac.authorization.k8s.io"
+        kind = "ClusterRole"
+        name = kubernetes_cluster_role.developer.metadata.0.name
+    }
+    subject {
+        kind = "Group"
+        name = "keycloak:developer"
+        api_group = "rbac.authorization.k8s.io"
+    }
+}
+
+resource "kubernetes_role_binding" "developer" {
+    metadata {
+        name    = "${var.cluster_name}-developer-rb"
+    }
+    role_ref {
+      api_group = "rbac.authorization.k8s.io"
+      kind      = "RoleBinding"
+      name = "cluster-admin"
+    }
+    subject {
+        api_group = "rbac.authorization.k8s.io"
+        kind = "Group"
+        name = "keycloak:developer"
+    }
+}

@@ -1,0 +1,66 @@
+/*resource "kubernetes_service" "keycloak_ingress_service" {
+    metadata {
+        name        = "${var.cluster_name}-keycloak-ingress-service"
+        labels      = merge(local.labels_list, {"component" = "ingress-service"})
+        namespace   = var.namespace
+    }
+    spec {
+        selector        = local.labels_list
+        type            = "NodePort"
+        port {
+            name        = "http"
+            protocol    = "TCP"
+            port        = 8080
+            target_port = 8080
+        }
+
+    }
+}
+*/
+
+resource "kubernetes_ingress_v1" "keycloak_ingress" {
+    metadata {
+        name = "${var.cluster_name}-keycloak-ingress"
+    }
+    spec {
+        default_backend {
+            service {
+                name = "${var.cluster_name}-keycloak"
+                port {
+                    number = 80
+                }
+            }
+        }
+        tls {
+            secret_name = "tls-secret"
+        }
+
+/*
+        pod_selector {
+            match_expressions {
+                key     = "name"
+                operator = "In"
+                values = ["${var.cluster_name}-keycloak","keycloak"]
+            }
+        }
+        ingress {
+            ports {
+                port     = 8080
+                protocol = "TCP"
+            }
+            from {
+                namespace_selector {
+                    match_labels = {
+                        name = "default"
+                    }
+                }
+            }
+        }
+        egress {}
+        policy_types = ["Ingress", "Egress"]
+*/
+    } # end spec
+    depends_on = [
+      module.postgresql
+    ]
+}

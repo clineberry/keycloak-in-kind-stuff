@@ -1,0 +1,15 @@
+resource "kubernetes_ingress_v1" "postgres_ingress" {
+	metadata {
+		name = "${var.cluster_name}-postgres-ingress"
+	}
+	spec {
+		default_backend {
+			service {
+				name = module.postgresql.service_name
+                port {
+                    number = 5432
+                }
+			}
+	    }
+    }
+}

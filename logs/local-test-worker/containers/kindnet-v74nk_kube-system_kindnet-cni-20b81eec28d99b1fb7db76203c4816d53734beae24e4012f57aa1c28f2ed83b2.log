@@ -1,0 +1,503 @@
+2022-11-29T20:56:03.189954197Z stderr F I1129 20:56:03.189810       1 main.go:102] connected to apiserver: https://10.96.0.1:443
+2022-11-29T20:56:03.190002906Z stderr F I1129 20:56:03.189834       1 main.go:107] hostIP = 172.18.0.3
+2022-11-29T20:56:03.190005906Z stderr F podIP = 172.18.0.3
+2022-11-29T20:56:03.190031531Z stderr F I1129 20:56:03.189900       1 main.go:116] setting mtu 1500 for CNI 
+2022-11-29T20:56:03.190033739Z stderr F I1129 20:56:03.189909       1 main.go:146] kindnetd IP family: "ipv4"
+2022-11-29T20:56:03.190035114Z stderr F I1129 20:56:03.189918       1 main.go:150] noMask IPv4 subnets: [10.244.0.0/16]
+2022-11-29T20:56:03.390729864Z stderr F I1129 20:56:03.390656       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:03.390993031Z stderr F I1129 20:56:03.390959       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:56:03.391131739Z stderr F I1129 20:56:03.391076       1 routes.go:46] Adding route {Ifindex: 0 Dst: 10.244.0.0/24 Src: <nil> Gw: 172.18.0.2 Flags: [] Table: 0} 
+2022-11-29T20:56:03.391177781Z stderr F I1129 20:56:03.391156       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:03.391182406Z stderr F I1129 20:56:03.391172       1 main.go:227] handling current node
+2022-11-29T20:56:13.408537494Z stderr F I1129 20:56:13.408344       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:13.408576286Z stderr F I1129 20:56:13.408375       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:56:13.408736911Z stderr F I1129 20:56:13.408667       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:13.408751161Z stderr F I1129 20:56:13.408686       1 main.go:227] handling current node
+2022-11-29T20:56:23.435020249Z stderr F I1129 20:56:23.434798       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:23.435079082Z stderr F I1129 20:56:23.434850       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:56:23.435401332Z stderr F I1129 20:56:23.435282       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:23.435449957Z stderr F I1129 20:56:23.435303       1 main.go:227] handling current node
+2022-11-29T20:56:33.454403254Z stderr F I1129 20:56:33.454227       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:33.454456087Z stderr F I1129 20:56:33.454264       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:56:33.454565962Z stderr F I1129 20:56:33.454473       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:33.454579795Z stderr F I1129 20:56:33.454488       1 main.go:227] handling current node
+2022-11-29T20:56:43.465080883Z stderr F I1129 20:56:43.464611       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:43.465147675Z stderr F I1129 20:56:43.464649       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:56:43.465238717Z stderr F I1129 20:56:43.465082       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:43.4653193Z stderr F I1129 20:56:43.465276       1 main.go:227] handling current node
+2022-11-29T20:56:53.479353846Z stderr F I1129 20:56:53.479235       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:53.479476763Z stderr F I1129 20:56:53.479448       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:56:53.479633096Z stderr F I1129 20:56:53.479585       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:53.479639721Z stderr F I1129 20:56:53.479597       1 main.go:227] handling current node
+2022-11-29T20:57:03.486808976Z stderr F I1129 20:57:03.486705       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:03.486831685Z stderr F I1129 20:57:03.486727       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:57:03.486838018Z stderr F I1129 20:57:03.486824       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:03.48691881Z stderr F I1129 20:57:03.486871       1 main.go:227] handling current node
+2022-11-29T20:57:13.500314731Z stderr F I1129 20:57:13.500115       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:13.500372064Z stderr F I1129 20:57:13.500150       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:57:13.500380481Z stderr F I1129 20:57:13.500234       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:13.500383606Z stderr F I1129 20:57:13.500255       1 main.go:227] handling current node
+2022-11-29T20:57:23.532032027Z stderr F I1129 20:57:23.531830       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:23.532079694Z stderr F I1129 20:57:23.531871       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:57:23.532090736Z stderr F I1129 20:57:23.532065       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:23.532258444Z stderr F I1129 20:57:23.532120       1 main.go:227] handling current node
+2022-11-29T20:57:33.548867449Z stderr F I1129 20:57:33.548745       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:33.548897324Z stderr F I1129 20:57:33.548774       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:57:33.549009616Z stderr F I1129 20:57:33.548945       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:33.549015032Z stderr F I1129 20:57:33.548962       1 main.go:227] handling current node
+2022-11-29T20:57:43.566769329Z stderr F I1129 20:57:43.566526       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:43.566825412Z stderr F I1129 20:57:43.566575       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:57:43.566955912Z stderr F I1129 20:57:43.566887       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:43.567002787Z stderr F I1129 20:57:43.566909       1 main.go:227] handling current node
+2022-11-29T20:57:53.587423375Z stderr F I1129 20:57:53.587194       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:53.5875275Z stderr F I1129 20:57:53.587236       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:57:53.587543Z stderr F I1129 20:57:53.587427       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:53.587547Z stderr F I1129 20:57:53.587454       1 main.go:227] handling current node
+2022-11-29T20:58:03.69214838Z stderr F I1129 20:58:03.691810       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:03.69225138Z stderr F I1129 20:58:03.691891       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:58:03.692570088Z stderr F I1129 20:58:03.692459       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:03.692592213Z stderr F I1129 20:58:03.692487       1 main.go:227] handling current node
+2022-11-29T20:58:13.708002843Z stderr F I1129 20:58:13.707763       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:13.708119635Z stderr F I1129 20:58:13.707814       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:58:13.70813626Z stderr F I1129 20:58:13.708053       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:13.708141343Z stderr F I1129 20:58:13.708065       1 main.go:227] handling current node
+2022-11-29T20:58:23.733222431Z stderr F I1129 20:58:23.733056       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:23.733321639Z stderr F I1129 20:58:23.733098       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:58:23.733332556Z stderr F I1129 20:58:23.733231       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:23.733358639Z stderr F I1129 20:58:23.733255       1 main.go:227] handling current node
+2022-11-29T20:58:33.760378686Z stderr F I1129 20:58:33.760173       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:33.760435019Z stderr F I1129 20:58:33.760211       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:58:33.760591769Z stderr F I1129 20:58:33.760524       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:33.760607019Z stderr F I1129 20:58:33.760542       1 main.go:227] handling current node
+2022-11-29T20:58:43.780112982Z stderr F I1129 20:58:43.779780       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:43.780165274Z stderr F I1129 20:58:43.779852       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:58:43.780445482Z stderr F I1129 20:58:43.780325       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:43.780452607Z stderr F I1129 20:58:43.780354       1 main.go:227] handling current node
+2022-11-29T20:58:53.803103154Z stderr F I1129 20:58:53.802845       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:53.803208362Z stderr F I1129 20:58:53.802886       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:58:53.80338307Z stderr F I1129 20:58:53.803284       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:53.803417445Z stderr F I1129 20:58:53.803308       1 main.go:227] handling current node
+2022-11-29T20:59:03.889550784Z stderr F I1129 20:59:03.889331       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:03.889708492Z stderr F I1129 20:59:03.889661       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:59:03.889856909Z stderr F I1129 20:59:03.889818       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:03.889902742Z stderr F I1129 20:59:03.889883       1 main.go:227] handling current node
+2022-11-29T20:59:13.897355413Z stderr F I1129 20:59:13.897173       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:13.897446247Z stderr F I1129 20:59:13.897215       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:59:13.897487038Z stderr F I1129 20:59:13.897366       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:13.897491247Z stderr F I1129 20:59:13.897397       1 main.go:227] handling current node
+2022-11-29T20:59:23.915587251Z stderr F I1129 20:59:23.915488       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:23.915612335Z stderr F I1129 20:59:23.915507       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:59:23.915730043Z stderr F I1129 20:59:23.915688       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:23.915733626Z stderr F I1129 20:59:23.915697       1 main.go:227] handling current node
+2022-11-29T20:59:33.926584381Z stderr F I1129 20:59:33.926467       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:33.926614173Z stderr F I1129 20:59:33.926510       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:59:33.926778631Z stderr F I1129 20:59:33.926718       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:33.926787881Z stderr F I1129 20:59:33.926732       1 main.go:227] handling current node
+2022-11-29T20:59:43.940125428Z stderr F I1129 20:59:43.939981       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:43.940157178Z stderr F I1129 20:59:43.940031       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:59:43.940288636Z stderr F I1129 20:59:43.940237       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:43.940292428Z stderr F I1129 20:59:43.940249       1 main.go:227] handling current node
+2022-11-29T20:59:53.958541724Z stderr F I1129 20:59:53.958257       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:53.958668099Z stderr F I1129 20:59:53.958294       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T20:59:53.958672891Z stderr F I1129 20:59:53.958389       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:53.958676224Z stderr F I1129 20:59:53.958408       1 main.go:227] handling current node
+2022-11-29T21:00:03.990938979Z stderr F I1129 21:00:03.990865       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:03.991002396Z stderr F I1129 21:00:03.990975       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:00:03.991124729Z stderr F I1129 21:00:03.991105       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:03.991147021Z stderr F I1129 21:00:03.991134       1 main.go:227] handling current node
+2022-11-29T21:00:14.004440317Z stderr F I1129 21:00:14.004297       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:14.004467817Z stderr F I1129 21:00:14.004327       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:00:14.004469817Z stderr F I1129 21:00:14.004377       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:14.004472109Z stderr F I1129 21:00:14.004381       1 main.go:227] handling current node
+2022-11-29T21:00:24.011724155Z stderr F I1129 21:00:24.011613       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:24.011753363Z stderr F I1129 21:00:24.011637       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:00:24.011804488Z stderr F I1129 21:00:24.011736       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:24.011809405Z stderr F I1129 21:00:24.011744       1 main.go:227] handling current node
+2022-11-29T21:00:34.034805743Z stderr F I1129 21:00:34.034667       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:34.034865368Z stderr F I1129 21:00:34.034702       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:00:34.034874785Z stderr F I1129 21:00:34.034779       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:34.034877827Z stderr F I1129 21:00:34.034824       1 main.go:227] handling current node
+2022-11-29T21:00:44.049846248Z stderr F I1129 21:00:44.049606       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:44.049894581Z stderr F I1129 21:00:44.049659       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:00:44.050085248Z stderr F I1129 21:00:44.049982       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:44.050094873Z stderr F I1129 21:00:44.050001       1 main.go:227] handling current node
+2022-11-29T21:00:54.059332169Z stderr F I1129 21:00:54.059036       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:54.059404044Z stderr F I1129 21:00:54.059082       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:00:54.059559836Z stderr F I1129 21:00:54.059463       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:54.059568461Z stderr F I1129 21:00:54.059484       1 main.go:227] handling current node
+2022-11-29T21:01:04.063545674Z stderr F I1129 21:01:04.063407       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:04.063595591Z stderr F I1129 21:01:04.063430       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:01:04.063605091Z stderr F I1129 21:01:04.063506       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:04.063607799Z stderr F I1129 21:01:04.063557       1 main.go:227] handling current node
+2022-11-29T21:01:14.077177137Z stderr F I1129 21:01:14.077028       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:14.077214804Z stderr F I1129 21:01:14.077059       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:01:14.077343304Z stderr F I1129 21:01:14.077243       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:14.077358762Z stderr F I1129 21:01:14.077261       1 main.go:227] handling current node
+2022-11-29T21:01:24.094321309Z stderr F I1129 21:01:24.094110       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:24.094367392Z stderr F I1129 21:01:24.094149       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:01:24.094421225Z stderr F I1129 21:01:24.094310       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:24.094426267Z stderr F I1129 21:01:24.094339       1 main.go:227] handling current node
+2022-11-29T21:01:34.108831689Z stderr F I1129 21:01:34.108697       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:34.108873272Z stderr F I1129 21:01:34.108786       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:01:34.108972189Z stderr F I1129 21:01:34.108919       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:34.108980147Z stderr F I1129 21:01:34.108932       1 main.go:227] handling current node
+2022-11-29T21:01:44.117987277Z stderr F I1129 21:01:44.117802       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:44.118048402Z stderr F I1129 21:01:44.117835       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:01:44.118104235Z stderr F I1129 21:01:44.118015       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:44.118109777Z stderr F I1129 21:01:44.118028       1 main.go:227] handling current node
+2022-11-29T21:01:54.13977249Z stderr F I1129 21:01:54.139661       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:54.139791031Z stderr F I1129 21:01:54.139691       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:01:54.139859615Z stderr F I1129 21:01:54.139797       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:54.139868615Z stderr F I1129 21:01:54.139816       1 main.go:227] handling current node
+2022-11-29T21:02:04.149657203Z stderr F I1129 21:02:04.149543       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:04.149674411Z stderr F I1129 21:02:04.149564       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:02:04.149862578Z stderr F I1129 21:02:04.149820       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:04.149869953Z stderr F I1129 21:02:04.149832       1 main.go:227] handling current node
+2022-11-29T21:02:14.161691666Z stderr F I1129 21:02:14.161580       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:14.161719999Z stderr F I1129 21:02:14.161644       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:02:14.161852291Z stderr F I1129 21:02:14.161778       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:14.161861166Z stderr F I1129 21:02:14.161790       1 main.go:227] handling current node
+2022-11-29T21:02:24.169215462Z stderr F I1129 21:02:24.169124       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:24.169237712Z stderr F I1129 21:02:24.169142       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:02:24.169359129Z stderr F I1129 21:02:24.169289       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:24.169367212Z stderr F I1129 21:02:24.169327       1 main.go:227] handling current node
+2022-11-29T21:02:34.181363134Z stderr F I1129 21:02:34.181263       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:34.181388759Z stderr F I1129 21:02:34.181288       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:02:34.181528467Z stderr F I1129 21:02:34.181478       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:34.181541717Z stderr F I1129 21:02:34.181494       1 main.go:227] handling current node
+2022-11-29T21:02:44.185418222Z stderr F I1129 21:02:44.185308       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:44.185442972Z stderr F I1129 21:02:44.185327       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:02:44.185534764Z stderr F I1129 21:02:44.185490       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:44.18553818Z stderr F I1129 21:02:44.185502       1 main.go:227] handling current node
+2022-11-29T21:02:54.196215602Z stderr F I1129 21:02:54.196031       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:54.196245227Z stderr F I1129 21:02:54.196072       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:02:54.196379935Z stderr F I1129 21:02:54.196320       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:54.196390185Z stderr F I1129 21:02:54.196343       1 main.go:227] handling current node
+2022-11-29T21:03:04.203870315Z stderr F I1129 21:03:04.203711       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:04.203907648Z stderr F I1129 21:03:04.203748       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:03:04.203914732Z stderr F I1129 21:03:04.203879       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:04.203951732Z stderr F I1129 21:03:04.203922       1 main.go:227] handling current node
+2022-11-29T21:03:14.216804028Z stderr F I1129 21:03:14.216574       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:14.216859861Z stderr F I1129 21:03:14.216617       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:03:14.216905903Z stderr F I1129 21:03:14.216776       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:14.216912153Z stderr F I1129 21:03:14.216786       1 main.go:227] handling current node
+2022-11-29T21:03:24.231836533Z stderr F I1129 21:03:24.231547       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:24.231898449Z stderr F I1129 21:03:24.231600       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:03:24.231955158Z stderr F I1129 21:03:24.231748       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:24.231962408Z stderr F I1129 21:03:24.231884       1 main.go:227] handling current node
+2022-11-29T21:03:34.257798954Z stderr F I1129 21:03:34.257589       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:34.257856329Z stderr F I1129 21:03:34.257631       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:03:34.258003996Z stderr F I1129 21:03:34.257905       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:34.258021163Z stderr F I1129 21:03:34.257926       1 main.go:227] handling current node
+2022-11-29T21:03:44.267313959Z stderr F I1129 21:03:44.267089       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:44.267368626Z stderr F I1129 21:03:44.267149       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:03:44.267572792Z stderr F I1129 21:03:44.267471       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:44.267589792Z stderr F I1129 21:03:44.267500       1 main.go:227] handling current node
+2022-11-29T21:03:54.28301663Z stderr F I1129 21:03:54.282802       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:54.28308588Z stderr F I1129 21:03:54.282848       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:03:54.283248297Z stderr F I1129 21:03:54.283113       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:54.283265505Z stderr F I1129 21:03:54.283174       1 main.go:227] handling current node
+2022-11-29T21:04:04.299866552Z stderr F I1129 21:04:04.299577       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:04.299931885Z stderr F I1129 21:04:04.299626       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:04:04.300121344Z stderr F I1129 21:04:04.300019       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:04.300137677Z stderr F I1129 21:04:04.300033       1 main.go:227] handling current node
+2022-11-29T21:04:14.305929473Z stderr F I1129 21:04:14.305735       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:14.305976682Z stderr F I1129 21:04:14.305780       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:04:14.306120182Z stderr F I1129 21:04:14.306061       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:14.306136432Z stderr F I1129 21:04:14.306081       1 main.go:227] handling current node
+2022-11-29T21:04:24.317342936Z stderr F I1129 21:04:24.317170       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:24.317390853Z stderr F I1129 21:04:24.317206       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:04:24.317556561Z stderr F I1129 21:04:24.317420       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:24.317573103Z stderr F I1129 21:04:24.317440       1 main.go:227] handling current node
+2022-11-29T21:04:34.332553233Z stderr F I1129 21:04:34.332345       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:34.332612066Z stderr F I1129 21:04:34.332383       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:04:34.332713066Z stderr F I1129 21:04:34.332655       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:34.332725858Z stderr F I1129 21:04:34.332675       1 main.go:227] handling current node
+2022-11-29T21:04:44.350372363Z stderr F I1129 21:04:44.350197       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:44.350435571Z stderr F I1129 21:04:44.350233       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:04:44.350491654Z stderr F I1129 21:04:44.350393       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:44.350498321Z stderr F I1129 21:04:44.350403       1 main.go:227] handling current node
+2022-11-29T21:04:54.359551242Z stderr F I1129 21:04:54.359367       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:54.359608826Z stderr F I1129 21:04:54.359401       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:04:54.359655826Z stderr F I1129 21:04:54.359506       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:54.359661159Z stderr F I1129 21:04:54.359515       1 main.go:227] handling current node
+2022-11-29T21:05:04.374579955Z stderr F I1129 21:05:04.374377       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:04.374634955Z stderr F I1129 21:05:04.374419       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:05:04.37467258Z stderr F I1129 21:05:04.374561       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:04.374808789Z stderr F I1129 21:05:04.374699       1 main.go:227] handling current node
+2022-11-29T21:05:14.392594919Z stderr F I1129 21:05:14.392341       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:14.39270971Z stderr F I1129 21:05:14.392404       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:05:14.39284171Z stderr F I1129 21:05:14.392626       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:14.392863002Z stderr F I1129 21:05:14.392740       1 main.go:227] handling current node
+2022-11-29T21:05:24.406130923Z stderr F I1129 21:05:24.405887       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:24.406222965Z stderr F I1129 21:05:24.405976       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:05:24.406468965Z stderr F I1129 21:05:24.406326       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:24.406480632Z stderr F I1129 21:05:24.406351       1 main.go:227] handling current node
+2022-11-29T21:05:34.424625678Z stderr F I1129 21:05:34.424351       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:34.424690428Z stderr F I1129 21:05:34.424400       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:05:34.424777678Z stderr F I1129 21:05:34.424543       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:34.424786303Z stderr F I1129 21:05:34.424558       1 main.go:227] handling current node
+2022-11-29T21:05:44.442227141Z stderr F I1129 21:05:44.441996       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:44.442286308Z stderr F I1129 21:05:44.442048       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:05:44.4424111Z stderr F I1129 21:05:44.442301       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:44.44253785Z stderr F I1129 21:05:44.442359       1 main.go:227] handling current node
+2022-11-29T21:05:54.461778688Z stderr F I1129 21:05:54.461651       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:54.461810521Z stderr F I1129 21:05:54.461674       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:05:54.461902271Z stderr F I1129 21:05:54.461843       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:54.461912771Z stderr F I1129 21:05:54.461862       1 main.go:227] handling current node
+2022-11-29T21:06:04.474435192Z stderr F I1129 21:06:04.474278       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:04.474461817Z stderr F I1129 21:06:04.474309       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:06:04.474563192Z stderr F I1129 21:06:04.474483       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:04.474567734Z stderr F I1129 21:06:04.474530       1 main.go:227] handling current node
+2022-11-29T21:06:14.488363072Z stderr F I1129 21:06:14.488183       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:14.488551406Z stderr F I1129 21:06:14.488221       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:06:14.488569197Z stderr F I1129 21:06:14.488346       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:14.488573531Z stderr F I1129 21:06:14.488355       1 main.go:227] handling current node
+2022-11-29T21:06:24.497764702Z stderr F I1129 21:06:24.497672       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:24.49784266Z stderr F I1129 21:06:24.497808       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:06:24.497952285Z stderr F I1129 21:06:24.497924       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:24.497958077Z stderr F I1129 21:06:24.497944       1 main.go:227] handling current node
+2022-11-29T21:06:34.515110457Z stderr F I1129 21:06:34.515011       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:34.515141457Z stderr F I1129 21:06:34.515030       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:06:34.515168832Z stderr F I1129 21:06:34.515102       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:34.515177623Z stderr F I1129 21:06:34.515131       1 main.go:227] handling current node
+2022-11-29T21:06:44.521057212Z stderr F I1129 21:06:44.520913       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:44.521084503Z stderr F I1129 21:06:44.520938       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:06:44.521165753Z stderr F I1129 21:06:44.521139       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:44.521169337Z stderr F I1129 21:06:44.521148       1 main.go:227] handling current node
+2022-11-29T21:06:54.5350968Z stderr F I1129 21:06:54.534998       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:54.53512105Z stderr F I1129 21:06:54.535017       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:06:54.535211591Z stderr F I1129 21:06:54.535165       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:54.535239508Z stderr F I1129 21:06:54.535176       1 main.go:227] handling current node
+2022-11-29T21:07:04.572012054Z stderr F I1129 21:07:04.571875       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:04.572132846Z stderr F I1129 21:07:04.572103       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:07:04.572326596Z stderr F I1129 21:07:04.572285       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:04.572362888Z stderr F I1129 21:07:04.572344       1 main.go:227] handling current node
+2022-11-29T21:07:14.590987059Z stderr F I1129 21:07:14.590863       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:14.591060268Z stderr F I1129 21:07:14.590890       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:07:14.591072643Z stderr F I1129 21:07:14.590959       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:14.591075851Z stderr F I1129 21:07:14.590967       1 main.go:227] handling current node
+2022-11-29T21:07:24.609984314Z stderr F I1129 21:07:24.609808       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:24.610011231Z stderr F I1129 21:07:24.609838       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:07:24.610013564Z stderr F I1129 21:07:24.609899       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:24.610028147Z stderr F I1129 21:07:24.609910       1 main.go:227] handling current node
+2022-11-29T21:07:34.626051069Z stderr F I1129 21:07:34.625912       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:34.626082235Z stderr F I1129 21:07:34.625938       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:07:34.626220069Z stderr F I1129 21:07:34.626150       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:34.626233194Z stderr F I1129 21:07:34.626166       1 main.go:227] handling current node
+2022-11-29T21:07:44.638554824Z stderr F I1129 21:07:44.638451       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:44.638589657Z stderr F I1129 21:07:44.638471       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:07:44.638633407Z stderr F I1129 21:07:44.638543       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:44.63863774Z stderr F I1129 21:07:44.638553       1 main.go:227] handling current node
+2022-11-29T21:07:54.65352787Z stderr F I1129 21:07:54.653326       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:54.65356612Z stderr F I1129 21:07:54.653363       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:07:54.653621703Z stderr F I1129 21:07:54.653485       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:54.653626328Z stderr F I1129 21:07:54.653496       1 main.go:227] handling current node
+2022-11-29T21:08:04.665103208Z stderr F I1129 21:08:04.664950       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:04.665130583Z stderr F I1129 21:08:04.664976       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:08:04.66526875Z stderr F I1129 21:08:04.665212       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:04.66532075Z stderr F I1129 21:08:04.665228       1 main.go:227] handling current node
+2022-11-29T21:08:14.677923171Z stderr F I1129 21:08:14.677810       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:14.677953213Z stderr F I1129 21:08:14.677834       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:08:14.678064421Z stderr F I1129 21:08:14.677989       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:14.678068463Z stderr F I1129 21:08:14.677995       1 main.go:227] handling current node
+2022-11-29T21:08:24.687742301Z stderr F I1129 21:08:24.687621       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:24.687786093Z stderr F I1129 21:08:24.687647       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:08:24.687956051Z stderr F I1129 21:08:24.687841       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:24.687960718Z stderr F I1129 21:08:24.687897       1 main.go:227] handling current node
+2022-11-29T21:08:34.704218556Z stderr F I1129 21:08:34.703985       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:34.704275014Z stderr F I1129 21:08:34.704029       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:08:34.704421597Z stderr F I1129 21:08:34.704328       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:34.704438056Z stderr F I1129 21:08:34.704346       1 main.go:227] handling current node
+2022-11-29T21:08:44.712757894Z stderr F I1129 21:08:44.712609       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:44.712814394Z stderr F I1129 21:08:44.712635       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:08:44.712928352Z stderr F I1129 21:08:44.712874       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:44.712933144Z stderr F I1129 21:08:44.712886       1 main.go:227] handling current node
+2022-11-29T21:08:54.721677857Z stderr F I1129 21:08:54.721569       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:54.721714399Z stderr F I1129 21:08:54.721589       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:08:54.721755399Z stderr F I1129 21:08:54.721690       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:54.72175869Z stderr F I1129 21:08:54.721730       1 main.go:227] handling current node
+2022-11-29T21:09:04.73511582Z stderr F I1129 21:09:04.734982       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:04.73514557Z stderr F I1129 21:09:04.735010       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:09:04.735254362Z stderr F I1129 21:09:04.735198       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:04.73526582Z stderr F I1129 21:09:04.735212       1 main.go:227] handling current node
+2022-11-29T21:09:14.748124575Z stderr F I1129 21:09:14.747977       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:14.748314075Z stderr F I1129 21:09:14.748240       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:09:14.748588075Z stderr F I1129 21:09:14.748534       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:14.748637658Z stderr F I1129 21:09:14.748617       1 main.go:227] handling current node
+2022-11-29T21:09:24.760363788Z stderr F I1129 21:09:24.760243       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:24.760396288Z stderr F I1129 21:09:24.760273       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:09:24.760440496Z stderr F I1129 21:09:24.760340       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:24.760444121Z stderr F I1129 21:09:24.760347       1 main.go:227] handling current node
+2022-11-29T21:09:34.774733043Z stderr F I1129 21:09:34.774622       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:34.774790959Z stderr F I1129 21:09:34.774645       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:09:34.774827751Z stderr F I1129 21:09:34.774711       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:34.774834293Z stderr F I1129 21:09:34.774738       1 main.go:227] handling current node
+2022-11-29T21:09:44.779649381Z stderr F I1129 21:09:44.779539       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:44.779676214Z stderr F I1129 21:09:44.779562       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:09:44.779714964Z stderr F I1129 21:09:44.779627       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:44.779718131Z stderr F I1129 21:09:44.779635       1 main.go:227] handling current node
+2022-11-29T21:09:54.795635386Z stderr F I1129 21:09:54.795525       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:54.795662677Z stderr F I1129 21:09:54.795557       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:09:54.795702094Z stderr F I1129 21:09:54.795617       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:54.795728761Z stderr F I1129 21:09:54.795642       1 main.go:227] handling current node
+2022-11-29T21:10:04.802660099Z stderr F I1129 21:10:04.802581       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:04.802686349Z stderr F I1129 21:10:04.802599       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:10:04.802701557Z stderr F I1129 21:10:04.802682       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:04.80272739Z stderr F I1129 21:10:04.802687       1 main.go:227] handling current node
+2022-11-29T21:10:14.807995312Z stderr F I1129 21:10:14.807910       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:14.808020895Z stderr F I1129 21:10:14.807928       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:10:14.808046104Z stderr F I1129 21:10:14.807979       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:14.808049437Z stderr F I1129 21:10:14.808001       1 main.go:227] handling current node
+2022-11-29T21:10:24.824406733Z stderr F I1129 21:10:24.824313       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:24.824430733Z stderr F I1129 21:10:24.824333       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:10:24.824566483Z stderr F I1129 21:10:24.824507       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:24.824570358Z stderr F I1129 21:10:24.824517       1 main.go:227] handling current node
+2022-11-29T21:10:34.834904405Z stderr F I1129 21:10:34.834811       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:34.834931821Z stderr F I1129 21:10:34.834829       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:10:34.835051863Z stderr F I1129 21:10:34.834989       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:34.835055696Z stderr F I1129 21:10:34.835000       1 main.go:227] handling current node
+2022-11-29T21:10:44.846829951Z stderr F I1129 21:10:44.846739       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:44.846856243Z stderr F I1129 21:10:44.846761       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:10:44.846921076Z stderr F I1129 21:10:44.846843       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:44.846930493Z stderr F I1129 21:10:44.846849       1 main.go:227] handling current node
+2022-11-29T21:10:54.858942248Z stderr F I1129 21:10:54.858848       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:54.858971039Z stderr F I1129 21:10:54.858867       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:10:54.859001373Z stderr F I1129 21:10:54.858978       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:54.859045331Z stderr F I1129 21:10:54.859018       1 main.go:227] handling current node
+2022-11-29T21:11:04.868321502Z stderr F I1129 21:11:04.868226       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:04.868443336Z stderr F I1129 21:11:04.868380       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:11:04.868587586Z stderr F I1129 21:11:04.868545       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:04.868592252Z stderr F I1129 21:11:04.868556       1 main.go:227] handling current node
+2022-11-29T21:11:14.87560859Z stderr F I1129 21:11:14.875515       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:14.87565159Z stderr F I1129 21:11:14.875534       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:11:14.875657674Z stderr F I1129 21:11:14.875601       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:14.875660424Z stderr F I1129 21:11:14.875624       1 main.go:227] handling current node
+2022-11-29T21:11:24.881730262Z stderr F I1129 21:11:24.881639       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:24.881756179Z stderr F I1129 21:11:24.881660       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:11:24.881814137Z stderr F I1129 21:11:24.881789       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:24.881822637Z stderr F I1129 21:11:24.881795       1 main.go:227] handling current node
+2022-11-29T21:11:34.888615725Z stderr F I1129 21:11:34.888528       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:34.88864085Z stderr F I1129 21:11:34.888547       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:11:34.888646308Z stderr F I1129 21:11:34.888621       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:34.888648225Z stderr F I1129 21:11:34.888636       1 main.go:227] handling current node
+2022-11-29T21:11:44.89517823Z stderr F I1129 21:11:44.895083       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:44.89520173Z stderr F I1129 21:11:44.895103       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:11:44.895307813Z stderr F I1129 21:11:44.895262       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:44.895311688Z stderr F I1129 21:11:44.895272       1 main.go:227] handling current node
+2022-11-29T21:11:54.90218436Z stderr F I1129 21:11:54.902060       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:54.902244901Z stderr F I1129 21:11:54.902083       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:11:54.902400193Z stderr F I1129 21:11:54.902320       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:54.902404901Z stderr F I1129 21:11:54.902332       1 main.go:227] handling current node
+2022-11-29T21:12:04.907954364Z stderr F I1129 21:12:04.907817       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:04.907983489Z stderr F I1129 21:12:04.907844       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:12:04.908034989Z stderr F I1129 21:12:04.907977       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:04.908037823Z stderr F I1129 21:12:04.907992       1 main.go:227] handling current node
+2022-11-29T21:12:14.917040077Z stderr F I1129 21:12:14.916956       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:14.917060411Z stderr F I1129 21:12:14.916977       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:12:14.917096536Z stderr F I1129 21:12:14.917060       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:14.917114286Z stderr F I1129 21:12:14.917066       1 main.go:227] handling current node
+2022-11-29T21:12:24.928109457Z stderr F I1129 21:12:24.928015       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:24.928129707Z stderr F I1129 21:12:24.928037       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:12:24.928172707Z stderr F I1129 21:12:24.928129       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:24.928176666Z stderr F I1129 21:12:24.928139       1 main.go:227] handling current node
+2022-11-29T21:12:34.93525767Z stderr F I1129 21:12:34.935166       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:34.935284962Z stderr F I1129 21:12:34.935185       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:12:34.935302629Z stderr F I1129 21:12:34.935277       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:34.935305337Z stderr F I1129 21:12:34.935283       1 main.go:227] handling current node
+2022-11-29T21:12:44.943716425Z stderr F I1129 21:12:44.943611       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:44.943759925Z stderr F I1129 21:12:44.943636       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:12:44.9437873Z stderr F I1129 21:12:44.943696       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:44.943790342Z stderr F I1129 21:12:44.943724       1 main.go:227] handling current node
+2022-11-29T21:12:54.948393763Z stderr F I1129 21:12:54.948299       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:54.94847643Z stderr F I1129 21:12:54.948319       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:12:54.948483305Z stderr F I1129 21:12:54.948398       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:54.948485555Z stderr F I1129 21:12:54.948406       1 main.go:227] handling current node
+2022-11-29T21:13:04.954050101Z stderr F I1129 21:13:04.953931       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:04.954113393Z stderr F I1129 21:13:04.953966       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:13:04.954159101Z stderr F I1129 21:13:04.954071       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:04.954171601Z stderr F I1129 21:13:04.954081       1 main.go:227] handling current node
+2022-11-29T21:13:14.959514231Z stderr F I1129 21:13:14.959418       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:14.959544439Z stderr F I1129 21:13:14.959440       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:13:14.959590148Z stderr F I1129 21:13:14.959520       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:14.959593148Z stderr F I1129 21:13:14.959526       1 main.go:227] handling current node
+2022-11-29T21:13:24.974575736Z stderr F I1129 21:13:24.974437       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:24.974608278Z stderr F I1129 21:13:24.974465       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:13:24.974678153Z stderr F I1129 21:13:24.974627       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:24.974683903Z stderr F I1129 21:13:24.974640       1 main.go:227] handling current node
+2022-11-29T21:13:34.984738866Z stderr F I1129 21:13:34.984648       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:34.984764491Z stderr F I1129 21:13:34.984670       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:13:34.984899157Z stderr F I1129 21:13:34.984821       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:34.984902616Z stderr F I1129 21:13:34.984829       1 main.go:227] handling current node
+2022-11-29T21:13:44.995872995Z stderr F I1129 21:13:44.995778       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:44.995898537Z stderr F I1129 21:13:44.995799       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:13:44.995991829Z stderr F I1129 21:13:44.995959       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:44.995999579Z stderr F I1129 21:13:44.995972       1 main.go:227] handling current node
+2022-11-29T21:13:55.006913459Z stderr F I1129 21:13:55.006838       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:55.006939542Z stderr F I1129 21:13:55.006855       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:13:55.006960959Z stderr F I1129 21:13:55.006927       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:55.0069645Z stderr F I1129 21:13:55.006932       1 main.go:227] handling current node
+2022-11-29T21:14:05.010221838Z stderr F I1129 21:14:05.010134       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:05.010244088Z stderr F I1129 21:14:05.010151       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:14:05.010330922Z stderr F I1129 21:14:05.010287       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:05.010338755Z stderr F I1129 21:14:05.010296       1 main.go:227] handling current node
+2022-11-29T21:14:15.023555635Z stderr F I1129 21:14:15.023492       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:15.02362251Z stderr F I1129 21:14:15.023595       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:14:15.023719426Z stderr F I1129 21:14:15.023684       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:15.023742843Z stderr F I1129 21:14:15.023732       1 main.go:227] handling current node
+2022-11-29T21:14:25.034118056Z stderr F I1129 21:14:25.034039       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:25.034128556Z stderr F I1129 21:14:25.034058       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:14:25.034236598Z stderr F I1129 21:14:25.034160       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:25.034241389Z stderr F I1129 21:14:25.034170       1 main.go:227] handling current node
+2022-11-29T21:14:35.040521811Z stderr F I1129 21:14:35.040442       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:35.040533061Z stderr F I1129 21:14:35.040460       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:14:35.040592019Z stderr F I1129 21:14:35.040551       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:35.040595519Z stderr F I1129 21:14:35.040561       1 main.go:227] handling current node
+2022-11-29T21:14:45.051825982Z stderr F I1129 21:14:45.051641       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:45.051895274Z stderr F I1129 21:14:45.051669       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:14:45.051898732Z stderr F I1129 21:14:45.051761       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:45.051900649Z stderr F I1129 21:14:45.051775       1 main.go:227] handling current node
+2022-11-29T21:14:55.055815112Z stderr F I1129 21:14:55.055717       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:55.055837779Z stderr F I1129 21:14:55.055743       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:14:55.055854529Z stderr F I1129 21:14:55.055819       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:55.05585757Z stderr F I1129 21:14:55.055825       1 main.go:227] handling current node
+2022-11-29T21:15:05.062326075Z stderr F I1129 21:15:05.062244       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:05.062440159Z stderr F I1129 21:15:05.062412       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:15:05.062537034Z stderr F I1129 21:15:05.062519       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:05.062563742Z stderr F I1129 21:15:05.062551       1 main.go:227] handling current node
+2022-11-29T21:15:15.07190708Z stderr F I1129 21:15:15.071827       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:15.071927497Z stderr F I1129 21:15:15.071848       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:15:15.072005872Z stderr F I1129 21:15:15.071972       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:15.072021913Z stderr F I1129 21:15:15.071982       1 main.go:227] handling current node
+2022-11-29T21:15:25.077487543Z stderr F I1129 21:15:25.077369       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:25.077523668Z stderr F I1129 21:15:25.077398       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:15:25.077674668Z stderr F I1129 21:15:25.077611       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:25.077679668Z stderr F I1129 21:15:25.077645       1 main.go:227] handling current node
+2022-11-29T21:15:35.086544756Z stderr F I1129 21:15:35.086424       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:35.086565173Z stderr F I1129 21:15:35.086451       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:15:35.086680506Z stderr F I1129 21:15:35.086633       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:35.086684423Z stderr F I1129 21:15:35.086644       1 main.go:227] handling current node
+2022-11-29T21:15:45.089858178Z stderr F I1129 21:15:45.089713       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:45.089879969Z stderr F I1129 21:15:45.089737       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:15:45.089957261Z stderr F I1129 21:15:45.089907       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:45.089961053Z stderr F I1129 21:15:45.089918       1 main.go:227] handling current node
+2022-11-29T21:15:55.100179266Z stderr F I1129 21:15:55.100080       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:55.100198682Z stderr F I1129 21:15:55.100102       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:15:55.100209182Z stderr F I1129 21:15:55.100149       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:55.100213057Z stderr F I1129 21:15:55.100199       1 main.go:227] handling current node
+2022-11-29T21:16:05.102812021Z stderr F I1129 21:16:05.102712       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:16:05.102825021Z stderr F I1129 21:16:05.102731       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:16:05.102936354Z stderr F I1129 21:16:05.102881       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:16:05.102941771Z stderr F I1129 21:16:05.102893       1 main.go:227] handling current node
+2022-11-29T21:16:15.109918692Z stderr F I1129 21:16:15.109835       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:16:15.109953525Z stderr F I1129 21:16:15.109852       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:16:15.10996115Z stderr F I1129 21:16:15.109923       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:16:15.109963567Z stderr F I1129 21:16:15.109932       1 main.go:227] handling current node
+2022-11-29T21:16:25.12086953Z stderr F I1129 21:16:25.120773       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:16:25.120888238Z stderr F I1129 21:16:25.120799       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:16:25.120929988Z stderr F I1129 21:16:25.120878       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:16:25.120933447Z stderr F I1129 21:16:25.120888       1 main.go:227] handling current node
+2022-11-29T21:16:35.123534368Z stderr F I1129 21:16:35.123452       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:16:35.123561993Z stderr F I1129 21:16:35.123472       1 main.go:250] Node local-test-control-plane has CIDR [10.244.0.0/24] 
+2022-11-29T21:16:35.12369466Z stderr F I1129 21:16:35.123644       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:16:35.12369966Z stderr F I1129 21:16:35.123654       1 main.go:227] handling current node

@@ -1,0 +1,507 @@
+2022-11-29T20:55:43.789007063Z stderr F I1129 20:55:43.788912       1 main.go:102] connected to apiserver: https://10.96.0.1:443
+2022-11-29T20:55:43.789021855Z stderr F I1129 20:55:43.788934       1 main.go:107] hostIP = 172.18.0.2
+2022-11-29T20:55:43.789024022Z stderr F podIP = 172.18.0.2
+2022-11-29T20:55:43.789091272Z stderr F I1129 20:55:43.789051       1 main.go:116] setting mtu 1500 for CNI 
+2022-11-29T20:55:43.789165897Z stderr F I1129 20:55:43.789109       1 main.go:146] kindnetd IP family: "ipv4"
+2022-11-29T20:55:43.789171147Z stderr F I1129 20:55:43.789125       1 main.go:150] noMask IPv4 subnets: [10.244.0.0/16]
+2022-11-29T20:55:43.99281373Z stderr F I1129 20:55:43.992758       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:55:43.992831063Z stderr F I1129 20:55:43.992818       1 main.go:227] handling current node
+2022-11-29T20:55:54.009309485Z stderr F I1129 20:55:54.009224       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:55:54.009335985Z stderr F I1129 20:55:54.009245       1 main.go:227] handling current node
+2022-11-29T20:56:04.013815906Z stderr F I1129 20:56:04.013637       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:04.013862948Z stderr F I1129 20:56:04.013679       1 main.go:227] handling current node
+2022-11-29T20:56:04.013866073Z stderr F I1129 20:56:04.013691       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:04.013868489Z stderr F I1129 20:56:04.013697       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:56:04.014015323Z stderr F I1129 20:56:04.013892       1 routes.go:46] Adding route {Ifindex: 0 Dst: 10.244.1.0/24 Src: <nil> Gw: 172.18.0.3 Flags: [] Table: 0} 
+2022-11-29T20:56:14.028299994Z stderr F I1129 20:56:14.028096       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:14.028379328Z stderr F I1129 20:56:14.028131       1 main.go:227] handling current node
+2022-11-29T20:56:14.028382661Z stderr F I1129 20:56:14.028144       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:14.028385078Z stderr F I1129 20:56:14.028149       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:56:24.045884582Z stderr F I1129 20:56:24.045600       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:24.045959166Z stderr F I1129 20:56:24.045670       1 main.go:227] handling current node
+2022-11-29T20:56:24.045963999Z stderr F I1129 20:56:24.045696       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:24.045966624Z stderr F I1129 20:56:24.045706       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:56:34.061050879Z stderr F I1129 20:56:34.060891       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:34.061127754Z stderr F I1129 20:56:34.060928       1 main.go:227] handling current node
+2022-11-29T20:56:34.061132379Z stderr F I1129 20:56:34.060939       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:34.061134879Z stderr F I1129 20:56:34.060944       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:56:44.067572717Z stderr F I1129 20:56:44.067378       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:44.067614009Z stderr F I1129 20:56:44.067399       1 main.go:227] handling current node
+2022-11-29T20:56:44.067616259Z stderr F I1129 20:56:44.067406       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:44.067617675Z stderr F I1129 20:56:44.067409       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:56:54.073317513Z stderr F I1129 20:56:54.073180       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:56:54.073356055Z stderr F I1129 20:56:54.073263       1 main.go:227] handling current node
+2022-11-29T20:56:54.073654722Z stderr F I1129 20:56:54.073408       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:56:54.073674013Z stderr F I1129 20:56:54.073432       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:57:04.084765018Z stderr F I1129 20:57:04.084670       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:04.084794226Z stderr F I1129 20:57:04.084689       1 main.go:227] handling current node
+2022-11-29T20:57:04.084796143Z stderr F I1129 20:57:04.084695       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:04.084797601Z stderr F I1129 20:57:04.084698       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:57:14.088451773Z stderr F I1129 20:57:14.088298       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:14.088483898Z stderr F I1129 20:57:14.088319       1 main.go:227] handling current node
+2022-11-29T20:57:14.088486148Z stderr F I1129 20:57:14.088325       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:14.088487773Z stderr F I1129 20:57:14.088329       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:57:24.096764986Z stderr F I1129 20:57:24.096463       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:24.096854194Z stderr F I1129 20:57:24.096509       1 main.go:227] handling current node
+2022-11-29T20:57:24.096859653Z stderr F I1129 20:57:24.096524       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:24.096863444Z stderr F I1129 20:57:24.096532       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:57:34.105305241Z stderr F I1129 20:57:34.105008       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:34.105363449Z stderr F I1129 20:57:34.105050       1 main.go:227] handling current node
+2022-11-29T20:57:34.105367491Z stderr F I1129 20:57:34.105062       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:34.105370741Z stderr F I1129 20:57:34.105069       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:57:44.116627037Z stderr F I1129 20:57:44.116461       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:44.116730621Z stderr F I1129 20:57:44.116498       1 main.go:227] handling current node
+2022-11-29T20:57:44.116735287Z stderr F I1129 20:57:44.116512       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:44.116738912Z stderr F I1129 20:57:44.116517       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:57:54.128663417Z stderr F I1129 20:57:54.128373       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:57:54.128717667Z stderr F I1129 20:57:54.128462       1 main.go:227] handling current node
+2022-11-29T20:57:54.128721125Z stderr F I1129 20:57:54.128488       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:57:54.128723709Z stderr F I1129 20:57:54.128498       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:58:04.14108013Z stderr F I1129 20:58:04.140841       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:04.141143088Z stderr F I1129 20:58:04.140887       1 main.go:227] handling current node
+2022-11-29T20:58:04.141146588Z stderr F I1129 20:58:04.140902       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:04.141149672Z stderr F I1129 20:58:04.140908       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:58:14.170236802Z stderr F I1129 20:58:14.169822       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:14.170344552Z stderr F I1129 20:58:14.169907       1 main.go:227] handling current node
+2022-11-29T20:58:14.170350968Z stderr F I1129 20:58:14.169931       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:14.170356093Z stderr F I1129 20:58:14.169942       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:58:24.18542814Z stderr F I1129 20:58:24.185223       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:24.18550039Z stderr F I1129 20:58:24.185266       1 main.go:227] handling current node
+2022-11-29T20:58:24.185504515Z stderr F I1129 20:58:24.185279       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:24.185507681Z stderr F I1129 20:58:24.185286       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:58:34.194049644Z stderr F I1129 20:58:34.193863       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:34.194106019Z stderr F I1129 20:58:34.193899       1 main.go:227] handling current node
+2022-11-29T20:58:34.194109436Z stderr F I1129 20:58:34.193910       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:34.194112144Z stderr F I1129 20:58:34.193916       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:58:44.200215191Z stderr F I1129 20:58:44.199922       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:44.200271899Z stderr F I1129 20:58:44.199968       1 main.go:227] handling current node
+2022-11-29T20:58:44.200286066Z stderr F I1129 20:58:44.199981       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:44.200290941Z stderr F I1129 20:58:44.199987       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:58:54.215128404Z stderr F I1129 20:58:54.214751       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:58:54.215212862Z stderr F I1129 20:58:54.214964       1 main.go:227] handling current node
+2022-11-29T20:58:54.215548487Z stderr F I1129 20:58:54.215248       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:58:54.215560696Z stderr F I1129 20:58:54.215279       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:59:04.226115909Z stderr F I1129 20:59:04.225875       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:04.226166534Z stderr F I1129 20:59:04.225912       1 main.go:227] handling current node
+2022-11-29T20:59:04.226169659Z stderr F I1129 20:59:04.225924       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:04.2261722Z stderr F I1129 20:59:04.225930       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:59:14.238388705Z stderr F I1129 20:59:14.238172       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:14.238454164Z stderr F I1129 20:59:14.238195       1 main.go:227] handling current node
+2022-11-29T20:59:14.238457164Z stderr F I1129 20:59:14.238204       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:14.238459622Z stderr F I1129 20:59:14.238207       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:59:24.24343321Z stderr F I1129 20:59:24.243302       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:24.243493752Z stderr F I1129 20:59:24.243341       1 main.go:227] handling current node
+2022-11-29T20:59:24.243604585Z stderr F I1129 20:59:24.243546       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:24.24369096Z stderr F I1129 20:59:24.243571       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:59:34.256732256Z stderr F I1129 20:59:34.256579       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:34.256780048Z stderr F I1129 20:59:34.256606       1 main.go:227] handling current node
+2022-11-29T20:59:34.256781881Z stderr F I1129 20:59:34.256615       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:34.256783673Z stderr F I1129 20:59:34.256618       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:59:44.262238345Z stderr F I1129 20:59:44.262084       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:44.26235897Z stderr F I1129 20:59:44.262300       1 main.go:227] handling current node
+2022-11-29T20:59:44.262369303Z stderr F I1129 20:59:44.262318       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:44.262385928Z stderr F I1129 20:59:44.262330       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T20:59:54.279871474Z stderr F I1129 20:59:54.279619       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T20:59:54.279931224Z stderr F I1129 20:59:54.279677       1 main.go:227] handling current node
+2022-11-29T20:59:54.279934974Z stderr F I1129 20:59:54.279692       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T20:59:54.279937808Z stderr F I1129 20:59:54.279698       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:00:04.295411687Z stderr F I1129 21:00:04.295282       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:04.295469104Z stderr F I1129 21:00:04.295376       1 main.go:227] handling current node
+2022-11-29T21:00:04.295472687Z stderr F I1129 21:00:04.295406       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:04.295475146Z stderr F I1129 21:00:04.295423       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:00:14.308231567Z stderr F I1129 21:00:14.308115       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:14.308259984Z stderr F I1129 21:00:14.308139       1 main.go:227] handling current node
+2022-11-29T21:00:14.308261776Z stderr F I1129 21:00:14.308147       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:14.308263276Z stderr F I1129 21:00:14.308150       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:00:24.311159489Z stderr F I1129 21:00:24.311047       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:24.311209114Z stderr F I1129 21:00:24.311065       1 main.go:227] handling current node
+2022-11-29T21:00:24.311211864Z stderr F I1129 21:00:24.311071       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:24.311213364Z stderr F I1129 21:00:24.311074       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:00:34.329059743Z stderr F I1129 21:00:34.328933       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:34.329092368Z stderr F I1129 21:00:34.328953       1 main.go:227] handling current node
+2022-11-29T21:00:34.329094952Z stderr F I1129 21:00:34.328960       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:34.329115077Z stderr F I1129 21:00:34.328964       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:00:44.332848373Z stderr F I1129 21:00:44.332727       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:44.332877623Z stderr F I1129 21:00:44.332753       1 main.go:227] handling current node
+2022-11-29T21:00:44.332879873Z stderr F I1129 21:00:44.332761       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:44.332913665Z stderr F I1129 21:00:44.332765       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:00:54.349617795Z stderr F I1129 21:00:54.349310       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:00:54.349699836Z stderr F I1129 21:00:54.349411       1 main.go:227] handling current node
+2022-11-29T21:00:54.349704086Z stderr F I1129 21:00:54.349488       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:00:54.34978292Z stderr F I1129 21:00:54.349501       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:01:04.361309424Z stderr F I1129 21:01:04.361143       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:04.361396258Z stderr F I1129 21:01:04.361181       1 main.go:227] handling current node
+2022-11-29T21:01:04.361399758Z stderr F I1129 21:01:04.361218       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:04.361402049Z stderr F I1129 21:01:04.361223       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:01:14.385413096Z stderr F I1129 21:01:14.384971       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:14.385485429Z stderr F I1129 21:01:14.385127       1 main.go:227] handling current node
+2022-11-29T21:01:14.385490137Z stderr F I1129 21:01:14.385220       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:14.385505971Z stderr F I1129 21:01:14.385260       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:01:24.398199559Z stderr F I1129 21:01:24.398011       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:24.398324642Z stderr F I1129 21:01:24.398068       1 main.go:227] handling current node
+2022-11-29T21:01:24.398330267Z stderr F I1129 21:01:24.398082       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:24.398334059Z stderr F I1129 21:01:24.398088       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:01:34.411005522Z stderr F I1129 21:01:34.410801       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:34.411055564Z stderr F I1129 21:01:34.410836       1 main.go:227] handling current node
+2022-11-29T21:01:34.411058522Z stderr F I1129 21:01:34.410847       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:34.411060772Z stderr F I1129 21:01:34.410852       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:01:44.41720586Z stderr F I1129 21:01:44.416987       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:44.41725736Z stderr F I1129 21:01:44.417027       1 main.go:227] handling current node
+2022-11-29T21:01:44.417260693Z stderr F I1129 21:01:44.417040       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:44.417263318Z stderr F I1129 21:01:44.417047       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:01:54.490257365Z stderr F I1129 21:01:54.490038       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:01:54.490320823Z stderr F I1129 21:01:54.490088       1 main.go:227] handling current node
+2022-11-29T21:01:54.490325865Z stderr F I1129 21:01:54.490102       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:01:54.490329657Z stderr F I1129 21:01:54.490107       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:02:04.502010203Z stderr F I1129 21:02:04.501894       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:04.502067411Z stderr F I1129 21:02:04.501919       1 main.go:227] handling current node
+2022-11-29T21:02:04.502070036Z stderr F I1129 21:02:04.501925       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:04.502071786Z stderr F I1129 21:02:04.501928       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:02:14.511977874Z stderr F I1129 21:02:14.511884       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:14.512005666Z stderr F I1129 21:02:14.511903       1 main.go:227] handling current node
+2022-11-29T21:02:14.512007541Z stderr F I1129 21:02:14.511909       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:14.512008958Z stderr F I1129 21:02:14.511912       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:02:24.522764004Z stderr F I1129 21:02:24.522630       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:24.522834004Z stderr F I1129 21:02:24.522656       1 main.go:227] handling current node
+2022-11-29T21:02:24.522836296Z stderr F I1129 21:02:24.522667       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:24.522837963Z stderr F I1129 21:02:24.522670       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:02:34.526762176Z stderr F I1129 21:02:34.526652       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:34.526791884Z stderr F I1129 21:02:34.526672       1 main.go:227] handling current node
+2022-11-29T21:02:34.526828717Z stderr F I1129 21:02:34.526678       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:34.526830842Z stderr F I1129 21:02:34.526681       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:02:44.530303472Z stderr F I1129 21:02:44.530182       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:44.530333555Z stderr F I1129 21:02:44.530204       1 main.go:227] handling current node
+2022-11-29T21:02:44.530339972Z stderr F I1129 21:02:44.530210       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:44.530341514Z stderr F I1129 21:02:44.530213       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:02:54.542364477Z stderr F I1129 21:02:54.542213       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:02:54.542409394Z stderr F I1129 21:02:54.542243       1 main.go:227] handling current node
+2022-11-29T21:02:54.542411644Z stderr F I1129 21:02:54.542254       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:02:54.542413894Z stderr F I1129 21:02:54.542258       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:03:04.55124019Z stderr F I1129 21:03:04.551147       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:04.551268273Z stderr F I1129 21:03:04.551163       1 main.go:227] handling current node
+2022-11-29T21:03:04.551269982Z stderr F I1129 21:03:04.551181       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:04.551324773Z stderr F I1129 21:03:04.551301       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:03:14.565458695Z stderr F I1129 21:03:14.563309       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:14.565560403Z stderr F I1129 21:03:14.563361       1 main.go:227] handling current node
+2022-11-29T21:03:14.565565778Z stderr F I1129 21:03:14.563386       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:14.56556957Z stderr F I1129 21:03:14.563395       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:03:24.581213283Z stderr F I1129 21:03:24.581127       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:24.581259866Z stderr F I1129 21:03:24.581174       1 main.go:227] handling current node
+2022-11-29T21:03:24.581277741Z stderr F I1129 21:03:24.581186       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:24.581280408Z stderr F I1129 21:03:24.581195       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:03:34.588203704Z stderr F I1129 21:03:34.588083       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:34.588252746Z stderr F I1129 21:03:34.588120       1 main.go:227] handling current node
+2022-11-29T21:03:34.588257829Z stderr F I1129 21:03:34.588130       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:34.588260329Z stderr F I1129 21:03:34.588135       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:03:44.592772876Z stderr F I1129 21:03:44.592642       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:44.593019251Z stderr F I1129 21:03:44.592670       1 main.go:227] handling current node
+2022-11-29T21:03:44.593024501Z stderr F I1129 21:03:44.592678       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:44.593026959Z stderr F I1129 21:03:44.592683       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:03:54.598377214Z stderr F I1129 21:03:54.598226       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:03:54.598439547Z stderr F I1129 21:03:54.598251       1 main.go:227] handling current node
+2022-11-29T21:03:54.598443714Z stderr F I1129 21:03:54.598258       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:03:54.598457422Z stderr F I1129 21:03:54.598262       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:04:04.604438802Z stderr F I1129 21:04:04.604298       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:04.604500594Z stderr F I1129 21:04:04.604328       1 main.go:227] handling current node
+2022-11-29T21:04:04.604504927Z stderr F I1129 21:04:04.604337       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:04.604507885Z stderr F I1129 21:04:04.604342       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:04:14.611131057Z stderr F I1129 21:04:14.611023       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:14.611155682Z stderr F I1129 21:04:14.611042       1 main.go:227] handling current node
+2022-11-29T21:04:14.611157807Z stderr F I1129 21:04:14.611048       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:14.61115939Z stderr F I1129 21:04:14.611051       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:04:24.622187062Z stderr F I1129 21:04:24.622071       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:24.622216978Z stderr F I1129 21:04:24.622096       1 main.go:227] handling current node
+2022-11-29T21:04:24.622219562Z stderr F I1129 21:04:24.622104       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:24.622221478Z stderr F I1129 21:04:24.622109       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:04:34.631905775Z stderr F I1129 21:04:34.631792       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:34.63194315Z stderr F I1129 21:04:34.631811       1 main.go:227] handling current node
+2022-11-29T21:04:34.631946316Z stderr F I1129 21:04:34.631818       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:34.631947983Z stderr F I1129 21:04:34.631822       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:04:44.636969071Z stderr F I1129 21:04:44.636784       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:44.637014071Z stderr F I1129 21:04:44.636818       1 main.go:227] handling current node
+2022-11-29T21:04:44.637017154Z stderr F I1129 21:04:44.636828       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:44.637019571Z stderr F I1129 21:04:44.636832       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:04:54.646561284Z stderr F I1129 21:04:54.646433       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:04:54.646592326Z stderr F I1129 21:04:54.646458       1 main.go:227] handling current node
+2022-11-29T21:04:54.646628076Z stderr F I1129 21:04:54.646466       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:04:54.646630701Z stderr F I1129 21:04:54.646471       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:05:04.650761206Z stderr F I1129 21:05:04.650609       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:04.650812414Z stderr F I1129 21:05:04.650636       1 main.go:227] handling current node
+2022-11-29T21:05:04.650815497Z stderr F I1129 21:05:04.650644       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:04.650817956Z stderr F I1129 21:05:04.650648       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:05:14.662136502Z stderr F I1129 21:05:14.662056       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:14.66216396Z stderr F I1129 21:05:14.662074       1 main.go:227] handling current node
+2022-11-29T21:05:14.662165669Z stderr F I1129 21:05:14.662080       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:14.662167127Z stderr F I1129 21:05:14.662083       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:05:24.674732048Z stderr F I1129 21:05:24.674597       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:24.674811007Z stderr F I1129 21:05:24.674618       1 main.go:227] handling current node
+2022-11-29T21:05:24.67481334Z stderr F I1129 21:05:24.674624       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:24.674814673Z stderr F I1129 21:05:24.674628       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:05:34.686749178Z stderr F I1129 21:05:34.686651       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:34.686780595Z stderr F I1129 21:05:34.686672       1 main.go:227] handling current node
+2022-11-29T21:05:34.686783387Z stderr F I1129 21:05:34.686679       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:34.686785178Z stderr F I1129 21:05:34.686682       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:05:44.6914821Z stderr F I1129 21:05:44.691338       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:44.691551016Z stderr F I1129 21:05:44.691366       1 main.go:227] handling current node
+2022-11-29T21:05:44.6915551Z stderr F I1129 21:05:44.691375       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:44.691557725Z stderr F I1129 21:05:44.691381       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:05:54.695817771Z stderr F I1129 21:05:54.695690       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:05:54.695852396Z stderr F I1129 21:05:54.695716       1 main.go:227] handling current node
+2022-11-29T21:05:54.695857438Z stderr F I1129 21:05:54.695725       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:05:54.695859229Z stderr F I1129 21:05:54.695729       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:06:04.707432068Z stderr F I1129 21:06:04.707315       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:04.707486901Z stderr F I1129 21:06:04.707340       1 main.go:227] handling current node
+2022-11-29T21:06:04.707490109Z stderr F I1129 21:06:04.707349       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:04.707492109Z stderr F I1129 21:06:04.707352       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:06:14.710495156Z stderr F I1129 21:06:14.710340       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:14.710525156Z stderr F I1129 21:06:14.710359       1 main.go:227] handling current node
+2022-11-29T21:06:14.710527156Z stderr F I1129 21:06:14.710365       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:14.710528614Z stderr F I1129 21:06:14.710368       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:06:24.722360785Z stderr F I1129 21:06:24.722228       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:24.722391119Z stderr F I1129 21:06:24.722256       1 main.go:227] handling current node
+2022-11-29T21:06:24.72239366Z stderr F I1129 21:06:24.722270       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:24.72239516Z stderr F I1129 21:06:24.722281       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:06:34.725264165Z stderr F I1129 21:06:34.725128       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:34.72529229Z stderr F I1129 21:06:34.725153       1 main.go:227] handling current node
+2022-11-29T21:06:34.725294374Z stderr F I1129 21:06:34.725159       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:34.725295957Z stderr F I1129 21:06:34.725163       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:06:44.729066795Z stderr F I1129 21:06:44.728980       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:44.729124128Z stderr F I1129 21:06:44.729107       1 main.go:227] handling current node
+2022-11-29T21:06:44.729172878Z stderr F I1129 21:06:44.729149       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:44.729208462Z stderr F I1129 21:06:44.729165       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:06:54.736711133Z stderr F I1129 21:06:54.736612       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:06:54.7367378Z stderr F I1129 21:06:54.736630       1 main.go:227] handling current node
+2022-11-29T21:06:54.73673955Z stderr F I1129 21:06:54.736635       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:06:54.736740883Z stderr F I1129 21:06:54.736638       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:07:04.742999096Z stderr F I1129 21:07:04.742853       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:04.743026221Z stderr F I1129 21:07:04.742882       1 main.go:227] handling current node
+2022-11-29T21:07:04.743029138Z stderr F I1129 21:07:04.742891       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:04.743031346Z stderr F I1129 21:07:04.742896       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:07:14.753928851Z stderr F I1129 21:07:14.753812       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:14.753949518Z stderr F I1129 21:07:14.753849       1 main.go:227] handling current node
+2022-11-29T21:07:14.753951143Z stderr F I1129 21:07:14.753855       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:14.753952434Z stderr F I1129 21:07:14.753858       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:07:24.756365481Z stderr F I1129 21:07:24.756264       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:24.756388106Z stderr F I1129 21:07:24.756281       1 main.go:227] handling current node
+2022-11-29T21:07:24.756389856Z stderr F I1129 21:07:24.756287       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:24.756391189Z stderr F I1129 21:07:24.756289       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:07:34.762003736Z stderr F I1129 21:07:34.761868       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:34.762035611Z stderr F I1129 21:07:34.761896       1 main.go:227] handling current node
+2022-11-29T21:07:34.762038486Z stderr F I1129 21:07:34.761904       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:34.762041361Z stderr F I1129 21:07:34.761909       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:07:44.764525574Z stderr F I1129 21:07:44.764446       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:44.764549157Z stderr F I1129 21:07:44.764462       1 main.go:227] handling current node
+2022-11-29T21:07:44.764551032Z stderr F I1129 21:07:44.764468       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:44.764552324Z stderr F I1129 21:07:44.764471       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:07:54.771151912Z stderr F I1129 21:07:54.771026       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:07:54.771228453Z stderr F I1129 21:07:54.771207       1 main.go:227] handling current node
+2022-11-29T21:07:54.77124212Z stderr F I1129 21:07:54.771232       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:07:54.771256995Z stderr F I1129 21:07:54.771245       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:08:04.773663042Z stderr F I1129 21:08:04.773548       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:04.773686792Z stderr F I1129 21:08:04.773566       1 main.go:227] handling current node
+2022-11-29T21:08:04.773689333Z stderr F I1129 21:08:04.773572       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:04.773745125Z stderr F I1129 21:08:04.773574       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:08:14.781502088Z stderr F I1129 21:08:14.781411       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:14.781529546Z stderr F I1129 21:08:14.781428       1 main.go:227] handling current node
+2022-11-29T21:08:14.781531588Z stderr F I1129 21:08:14.781434       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:14.78153288Z stderr F I1129 21:08:14.781437       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:08:24.793121051Z stderr F I1129 21:08:24.793027       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:24.793141093Z stderr F I1129 21:08:24.793050       1 main.go:227] handling current node
+2022-11-29T21:08:24.793142718Z stderr F I1129 21:08:24.793056       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:24.793144051Z stderr F I1129 21:08:24.793059       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:08:34.796143181Z stderr F I1129 21:08:34.796042       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:34.796168347Z stderr F I1129 21:08:34.796069       1 main.go:227] handling current node
+2022-11-29T21:08:34.796170597Z stderr F I1129 21:08:34.796079       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:34.796172556Z stderr F I1129 21:08:34.796083       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:08:44.799395769Z stderr F I1129 21:08:44.799280       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:44.799427436Z stderr F I1129 21:08:44.799301       1 main.go:227] handling current node
+2022-11-29T21:08:44.799430144Z stderr F I1129 21:08:44.799308       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:44.799431727Z stderr F I1129 21:08:44.799311       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:08:54.803671399Z stderr F I1129 21:08:54.803524       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:08:54.803696899Z stderr F I1129 21:08:54.803541       1 main.go:227] handling current node
+2022-11-29T21:08:54.803698565Z stderr F I1129 21:08:54.803547       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:08:54.803700149Z stderr F I1129 21:08:54.803550       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:09:04.80673057Z stderr F I1129 21:09:04.806625       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:04.806758362Z stderr F I1129 21:09:04.806646       1 main.go:227] handling current node
+2022-11-29T21:09:04.806760487Z stderr F I1129 21:09:04.806653       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:04.806762487Z stderr F I1129 21:09:04.806657       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:09:14.819018992Z stderr F I1129 21:09:14.818859       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:14.819094075Z stderr F I1129 21:09:14.818890       1 main.go:227] handling current node
+2022-11-29T21:09:14.819097075Z stderr F I1129 21:09:14.818901       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:14.819099617Z stderr F I1129 21:09:14.818904       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:09:24.821982621Z stderr F I1129 21:09:24.821893       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:24.822003705Z stderr F I1129 21:09:24.821916       1 main.go:227] handling current node
+2022-11-29T21:09:24.822008371Z stderr F I1129 21:09:24.821924       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:24.822010246Z stderr F I1129 21:09:24.821927       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:09:34.831837876Z stderr F I1129 21:09:34.831689       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:34.831878584Z stderr F I1129 21:09:34.831715       1 main.go:227] handling current node
+2022-11-29T21:09:34.831881084Z stderr F I1129 21:09:34.831727       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:34.831882418Z stderr F I1129 21:09:34.831732       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:09:44.834813089Z stderr F I1129 21:09:44.834704       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:44.834832923Z stderr F I1129 21:09:44.834730       1 main.go:227] handling current node
+2022-11-29T21:09:44.834834881Z stderr F I1129 21:09:44.834741       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:44.834836506Z stderr F I1129 21:09:44.834745       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:09:54.836843594Z stderr F I1129 21:09:54.836765       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:09:54.836860261Z stderr F I1129 21:09:54.836784       1 main.go:227] handling current node
+2022-11-29T21:09:54.836862177Z stderr F I1129 21:09:54.836790       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:09:54.836863636Z stderr F I1129 21:09:54.836793       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:10:04.845811724Z stderr F I1129 21:10:04.845731       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:04.845828349Z stderr F I1129 21:10:04.845748       1 main.go:227] handling current node
+2022-11-29T21:10:04.845830224Z stderr F I1129 21:10:04.845754       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:04.845831599Z stderr F I1129 21:10:04.845757       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:10:14.856635687Z stderr F I1129 21:10:14.856526       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:14.856651354Z stderr F I1129 21:10:14.856549       1 main.go:227] handling current node
+2022-11-29T21:10:14.856652979Z stderr F I1129 21:10:14.856555       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:14.856654354Z stderr F I1129 21:10:14.856559       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:10:24.866284275Z stderr F I1129 21:10:24.866216       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:24.866298442Z stderr F I1129 21:10:24.866233       1 main.go:227] handling current node
+2022-11-29T21:10:24.86630015Z stderr F I1129 21:10:24.866238       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:24.866301733Z stderr F I1129 21:10:24.866242       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:10:34.876188155Z stderr F I1129 21:10:34.876115       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:34.876206988Z stderr F I1129 21:10:34.876133       1 main.go:227] handling current node
+2022-11-29T21:10:34.876208571Z stderr F I1129 21:10:34.876139       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:34.876209863Z stderr F I1129 21:10:34.876141       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:10:44.87910466Z stderr F I1129 21:10:44.879019       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:44.879121451Z stderr F I1129 21:10:44.879039       1 main.go:227] handling current node
+2022-11-29T21:10:44.879123493Z stderr F I1129 21:10:44.879045       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:44.879125076Z stderr F I1129 21:10:44.879048       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:10:54.881615498Z stderr F I1129 21:10:54.881524       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:10:54.881630456Z stderr F I1129 21:10:54.881544       1 main.go:227] handling current node
+2022-11-29T21:10:54.881632331Z stderr F I1129 21:10:54.881550       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:10:54.881642789Z stderr F I1129 21:10:54.881553       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:11:04.890978711Z stderr F I1129 21:11:04.890900       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:04.890993211Z stderr F I1129 21:11:04.890921       1 main.go:227] handling current node
+2022-11-29T21:11:04.890995127Z stderr F I1129 21:11:04.890934       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:04.890996669Z stderr F I1129 21:11:04.890940       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:11:14.901657674Z stderr F I1129 21:11:14.901578       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:14.901673799Z stderr F I1129 21:11:14.901595       1 main.go:227] handling current node
+2022-11-29T21:11:14.901675632Z stderr F I1129 21:11:14.901600       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:14.90167709Z stderr F I1129 21:11:14.901603       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:11:24.912358762Z stderr F I1129 21:11:24.912270       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:24.91237272Z stderr F I1129 21:11:24.912288       1 main.go:227] handling current node
+2022-11-29T21:11:24.912374512Z stderr F I1129 21:11:24.912294       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:24.912375887Z stderr F I1129 21:11:24.912297       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:11:34.922630767Z stderr F I1129 21:11:34.922559       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:34.922647475Z stderr F I1129 21:11:34.922616       1 main.go:227] handling current node
+2022-11-29T21:11:34.922649517Z stderr F I1129 21:11:34.922628       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:34.922650808Z stderr F I1129 21:11:34.922637       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:11:44.924864771Z stderr F I1129 21:11:44.924768       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:44.924883813Z stderr F I1129 21:11:44.924789       1 main.go:227] handling current node
+2022-11-29T21:11:44.92488573Z stderr F I1129 21:11:44.924795       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:44.924887188Z stderr F I1129 21:11:44.924798       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:11:54.92739186Z stderr F I1129 21:11:54.927290       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:11:54.927416693Z stderr F I1129 21:11:54.927308       1 main.go:227] handling current node
+2022-11-29T21:11:54.927418776Z stderr F I1129 21:11:54.927314       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:11:54.927437693Z stderr F I1129 21:11:54.927317       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:12:04.930530323Z stderr F I1129 21:12:04.930427       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:04.930561239Z stderr F I1129 21:12:04.930449       1 main.go:227] handling current node
+2022-11-29T21:12:04.930611114Z stderr F I1129 21:12:04.930455       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:04.930619448Z stderr F I1129 21:12:04.930458       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:12:14.941360452Z stderr F I1129 21:12:14.941276       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:14.941385619Z stderr F I1129 21:12:14.941293       1 main.go:227] handling current node
+2022-11-29T21:12:14.941387286Z stderr F I1129 21:12:14.941299       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:14.941388702Z stderr F I1129 21:12:14.941302       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:12:24.950924082Z stderr F I1129 21:12:24.950856       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:24.950948291Z stderr F I1129 21:12:24.950874       1 main.go:227] handling current node
+2022-11-29T21:12:24.950950082Z stderr F I1129 21:12:24.950879       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:24.950951541Z stderr F I1129 21:12:24.950883       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:12:34.961170129Z stderr F I1129 21:12:34.961086       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:34.961195712Z stderr F I1129 21:12:34.961108       1 main.go:227] handling current node
+2022-11-29T21:12:34.961198587Z stderr F I1129 21:12:34.961114       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:34.961200045Z stderr F I1129 21:12:34.961117       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:12:44.963971258Z stderr F I1129 21:12:44.963875       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:44.963994758Z stderr F I1129 21:12:44.963893       1 main.go:227] handling current node
+2022-11-29T21:12:44.963996258Z stderr F I1129 21:12:44.963898       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:44.963997508Z stderr F I1129 21:12:44.963901       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:12:54.970286097Z stderr F I1129 21:12:54.970195       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:12:54.970301888Z stderr F I1129 21:12:54.970213       1 main.go:227] handling current node
+2022-11-29T21:12:54.970303722Z stderr F I1129 21:12:54.970219       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:12:54.970305138Z stderr F I1129 21:12:54.970221       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:13:04.97219906Z stderr F I1129 21:13:04.972123       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:04.972213643Z stderr F I1129 21:13:04.972142       1 main.go:227] handling current node
+2022-11-29T21:13:04.972215976Z stderr F I1129 21:13:04.972147       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:04.972217435Z stderr F I1129 21:13:04.972150       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:13:14.980888231Z stderr F I1129 21:13:14.980790       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:14.980903398Z stderr F I1129 21:13:14.980812       1 main.go:227] handling current node
+2022-11-29T21:13:14.980905106Z stderr F I1129 21:13:14.980821       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:14.980906523Z stderr F I1129 21:13:14.980826       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:13:24.995545403Z stderr F I1129 21:13:24.995414       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:24.995580778Z stderr F I1129 21:13:24.995436       1 main.go:227] handling current node
+2022-11-29T21:13:24.995583569Z stderr F I1129 21:13:24.995443       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:24.995584778Z stderr F I1129 21:13:24.995446       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:13:35.006174366Z stderr F I1129 21:13:35.006084       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:35.006193949Z stderr F I1129 21:13:35.006102       1 main.go:227] handling current node
+2022-11-29T21:13:35.006195782Z stderr F I1129 21:13:35.006107       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:35.006197199Z stderr F I1129 21:13:35.006110       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:13:45.008003579Z stderr F I1129 21:13:45.007932       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:45.008019245Z stderr F I1129 21:13:45.007948       1 main.go:227] handling current node
+2022-11-29T21:13:45.008030912Z stderr F I1129 21:13:45.007958       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:45.008032329Z stderr F I1129 21:13:45.007963       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:13:55.014693834Z stderr F I1129 21:13:55.014609       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:13:55.014709167Z stderr F I1129 21:13:55.014625       1 main.go:227] handling current node
+2022-11-29T21:13:55.014711209Z stderr F I1129 21:13:55.014631       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:13:55.0147125Z stderr F I1129 21:13:55.014633       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:14:05.016883588Z stderr F I1129 21:14:05.016808       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:05.016894838Z stderr F I1129 21:14:05.016825       1 main.go:227] handling current node
+2022-11-29T21:14:05.016896422Z stderr F I1129 21:14:05.016830       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:05.016897713Z stderr F I1129 21:14:05.016832       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:14:15.024044593Z stderr F I1129 21:14:15.023979       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:15.02405676Z stderr F I1129 21:14:15.023996       1 main.go:227] handling current node
+2022-11-29T21:14:15.024058426Z stderr F I1129 21:14:15.024002       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:15.024059885Z stderr F I1129 21:14:15.024004       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:14:25.033186056Z stderr F I1129 21:14:25.033103       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:25.033210681Z stderr F I1129 21:14:25.033170       1 main.go:227] handling current node
+2022-11-29T21:14:25.033212889Z stderr F I1129 21:14:25.033198       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:25.033215598Z stderr F I1129 21:14:25.033208       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:14:35.039268561Z stderr F I1129 21:14:35.039202       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:35.039297978Z stderr F I1129 21:14:35.039252       1 main.go:227] handling current node
+2022-11-29T21:14:35.039300519Z stderr F I1129 21:14:35.039277       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:35.039302019Z stderr F I1129 21:14:35.039286       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:14:45.042107732Z stderr F I1129 21:14:45.041991       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:45.042207607Z stderr F I1129 21:14:45.042015       1 main.go:227] handling current node
+2022-11-29T21:14:45.042213816Z stderr F I1129 21:14:45.042024       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:45.042215691Z stderr F I1129 21:14:45.042030       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:14:55.055905779Z stderr F I1129 21:14:55.055608       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:14:55.055945487Z stderr F I1129 21:14:55.055626       1 main.go:227] handling current node
+2022-11-29T21:14:55.055947987Z stderr F I1129 21:14:55.055634       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:14:55.055949445Z stderr F I1129 21:14:55.055637       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:15:05.062661575Z stderr F I1129 21:15:05.062471       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:05.062674825Z stderr F I1129 21:15:05.062487       1 main.go:227] handling current node
+2022-11-29T21:15:05.062676825Z stderr F I1129 21:15:05.062493       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:05.062678492Z stderr F I1129 21:15:05.062499       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:15:15.07217858Z stderr F I1129 21:15:15.072105       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:15.072192413Z stderr F I1129 21:15:15.072124       1 main.go:227] handling current node
+2022-11-29T21:15:15.072194247Z stderr F I1129 21:15:15.072130       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:15.072195705Z stderr F I1129 21:15:15.072133       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:15:25.078057335Z stderr F I1129 21:15:25.077986       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:25.078070376Z stderr F I1129 21:15:25.078005       1 main.go:227] handling current node
+2022-11-29T21:15:25.078072251Z stderr F I1129 21:15:25.078012       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:25.078073668Z stderr F I1129 21:15:25.078016       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:15:35.087619048Z stderr F I1129 21:15:35.087532       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:35.087632673Z stderr F I1129 21:15:35.087553       1 main.go:227] handling current node
+2022-11-29T21:15:35.087634756Z stderr F I1129 21:15:35.087559       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:35.087636256Z stderr F I1129 21:15:35.087563       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:15:45.091005094Z stderr F I1129 21:15:45.090901       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:45.091016594Z stderr F I1129 21:15:45.090920       1 main.go:227] handling current node
+2022-11-29T21:15:45.091018261Z stderr F I1129 21:15:45.090925       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:45.091019678Z stderr F I1129 21:15:45.090927       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:15:55.095970349Z stderr F I1129 21:15:55.095859       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:15:55.095999307Z stderr F I1129 21:15:55.095881       1 main.go:227] handling current node
+2022-11-29T21:15:55.096001849Z stderr F I1129 21:15:55.095888       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:15:55.096003391Z stderr F I1129 21:15:55.095891       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:16:05.099697146Z stderr F I1129 21:16:05.099596       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:16:05.099715354Z stderr F I1129 21:16:05.099615       1 main.go:227] handling current node
+2022-11-29T21:16:05.099717687Z stderr F I1129 21:16:05.099622       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:16:05.099719312Z stderr F I1129 21:16:05.099625       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:16:15.10771065Z stderr F I1129 21:16:15.107622       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:16:15.107728317Z stderr F I1129 21:16:15.107640       1 main.go:227] handling current node
+2022-11-29T21:16:15.107730067Z stderr F I1129 21:16:15.107646       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:16:15.107731525Z stderr F I1129 21:16:15.107649       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:16:25.113038238Z stderr F I1129 21:16:25.112920       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:16:25.11305903Z stderr F I1129 21:16:25.112945       1 main.go:227] handling current node
+2022-11-29T21:16:25.113060822Z stderr F I1129 21:16:25.112953       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:16:25.113062405Z stderr F I1129 21:16:25.112956       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 
+2022-11-29T21:16:35.12004666Z stderr F I1129 21:16:35.119912       1 main.go:223] Handling node with IPs: map[172.18.0.2:{}]
+2022-11-29T21:16:35.120108077Z stderr F I1129 21:16:35.119932       1 main.go:227] handling current node
+2022-11-29T21:16:35.12011016Z stderr F I1129 21:16:35.119942       1 main.go:223] Handling node with IPs: map[172.18.0.3:{}]
+2022-11-29T21:16:35.120111577Z stderr F I1129 21:16:35.119947       1 main.go:250] Node local-test-worker has CIDR [10.244.1.0/24] 

@@ -1,0 +1,12 @@
+IMAGE                                      TAG                   IMAGE ID            SIZE
+docker.io/bitnami/postgresql               15.1.0-debian-11-r6   3d77992efe336       92.4MB
+docker.io/kindest/kindnetd                 v20220726-ed811e41    823f482c52727       23.7MB
+docker.io/kindest/local-path-helper        v20220607-9a4d8d2a    304f67e47fc80       2.75MB
+docker.io/kindest/local-path-provisioner   v0.0.22-kind.0        7902f9a1c54fa       15.6MB
+k8s.gcr.io/coredns/coredns                 v1.8.6                edaa71f2aee88       12.3MB
+k8s.gcr.io/etcd                            3.5.3-0               a9a710bb96df0       81.1MB
+k8s.gcr.io/kube-apiserver                  v1.24.6               d54a126f5c47e       75.5MB
+k8s.gcr.io/kube-controller-manager         v1.24.6               8bf7b3d0b4d22       63.9MB
+k8s.gcr.io/kube-proxy                      v1.24.6               fbfab459ad2c5       108MB
+k8s.gcr.io/kube-scheduler                  v1.24.6               1a6664eba872a       51.4MB
+registry.k8s.io/pause                      3.7                   e5a475a038057       268kB
